@@ -1,4 +1,5 @@
-## lstools
+lastools
+========
 
 * http://lastools.org/
 * https://github.com/LAStools/LAStools
@@ -9,30 +10,37 @@ render only ground data
 
 ![ground only](lastools_img/render_ground_only.png)
 
-triangulate a DTM???
+### triangulation
 
 ![tiangulation](lastools_img/triangulate.png)
 
-![triangulation result](lastools_img/triangulate_result.pmg)
+![triangulation result](lastools_img/triangulate_result.png)
+
 ![triangulation result](lastools_img/triangulate_result_no_points.png)
 
 
 better use batch files
 
 
-### first project
+### retrieve meta data 
 
 copy stuff to folder
 
 ![should look like this](lastools_img/project_folder.png)
 
-open lasinfo
+open lasinfo and add files
 
 ![should look like this](lastools_img/project_add_stuff.png)
 
+drop everything not class 2 (ground)
+
 ![should look like this](lastools_img/project_keep_only_class_2.png)
 
+use meaningful file naming to prevent intense searching afterwards
+
 ![should look like this](lastools_img/project_specify_output_file.png)
+
+running the configuration should promt console command, click start to really run
 
 ![should look like this](lastools_img/project_run.png)
 
