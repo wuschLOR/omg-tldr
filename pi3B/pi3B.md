@@ -25,6 +25,11 @@ recomended
 
 via ```sudo raspi-config```
 
+1. select ```2 Network Options      Configure network settings```
+2. select ```N1 Hostname                Set the visible name for this Pi on a network```
+3. OK
+4. enter hostname that is unique and can be rememberd
+
 ### create user
 
 ```
@@ -41,5 +46,5 @@ userdel -r pi
 ### let ansible do its magic (if configured)
 
 ```
-ansible-playbook --limit ans_vanilla_pi site.yml -KbD --ask-pass
+ansible-playbook --limit ans_vanilla_pi_user site.yml -KbD --ask-pass
 ```
