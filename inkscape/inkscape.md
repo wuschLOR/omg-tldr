@@ -1,7 +1,7 @@
 ## Overview 
 
 
-!(so this looks how?)[inkscape_overview_labels.png]
+![first glance](inkscape_img/inkscape_overview_labels.png)
 
 * commands bar
     * save stuff
